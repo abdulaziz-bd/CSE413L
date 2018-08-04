@@ -17,8 +17,8 @@ class Sim {
     public static void main(String argv[]) {
 
         AvgInterArrivalTime = 4.5; AvgServiceTime = 3.2;
-        StanDeviation                = 0.6; TotalCustomers  = 1000;
-        long seed            = Long.parseLong("1");
+        StanDeviation       = 0.6; TotalCustomers  = 1000;
+        long seed           = Long.parseLong("1");
 
         Stream = new Random(seed);           // initialize rng Stream
         FutureEventList = new EventList();
